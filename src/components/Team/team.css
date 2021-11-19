@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+}
+
+.team-collection {
+    box-sizing: border-box;
+    width: 375px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 21px 16px;
+    color: #3E4959;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.admin-user-collection {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.title {
+    margin-bottom: 8px;
+    color: #828B97;
+}
+
+.title > img {
+    padding: 0 10px 0 8px;
+}
+
+.user-collection {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color:  #ffffff;
+    padding: 0 16px;
+}
+
+.user-collection .card {
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #F8F8F9;
+    text-transform: capitalize;
+}
+
+.user-collection .card .invited-users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 28px);
+}
+
+.user-collection .card .invited-users .phone-number {
+    color: #828B97;
+}
+
+.user-collection .card .invited-users .user-status {
+    padding: 1px 10px;
+    background-color: #EEEFF2;
+    border-radius: 24px;
+    width: 55px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-collection .card > img {
+    margin-right: 6px;
+}
+
+.user-collection .card:last-child {
+    border: none;
+}
